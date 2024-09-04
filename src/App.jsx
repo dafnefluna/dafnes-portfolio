@@ -1,6 +1,6 @@
 import Header from "./assets/components/Header";
 import Navtabs from "./assets/components/Navbar";
-import Section from "./assets/components/project";
+import Project from "./assets/components/project";
 import Footer from "./assets/components/Footer";
 import { Outlet } from 'react-router-dom'
 

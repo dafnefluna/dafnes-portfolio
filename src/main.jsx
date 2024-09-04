@@ -10,6 +10,8 @@ import {
 import AboutMe from './assets/pages/Aboutme.jsx';
 import ContactMe from './assets/pages/contactme.jsx';
 import Project from './assets/components/project.jsx';
+import Resume from './assets/pages/resume.jsx';
+// import '/src/index.css';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Project />
+      },
+      {
+        path: '/resume',
+        element: <Resume />
       },
     ]
   },

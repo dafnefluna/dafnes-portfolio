@@ -1,0 +1,12 @@
+header {
+    background: rgb(252, 236, 58);
+    /* background-image: url("../images/Banner.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
+    background-size: contain;
+    background-position: center;
+    min-height: 10vh;
+    color: var(--light);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    text-align: right;
+}
